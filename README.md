@@ -1,4 +1,6 @@
-# alexamaster-auto Ubuntu/windows
+# alexamaster-auto Ubuntu/windows 
+
+#### 理论上所有系统都适合，其他系统自行测试，大致套路是自己安装VNC和火狐浏览器挂机，我这个是一键脚本
 
 注册网址：[点我](https://www.alexamaster.net/sec/join.php?id=163416)
 
