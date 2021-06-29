@@ -34,7 +34,7 @@ https://www.alexamaster.net/ads/autosurf/163416
 ```
 sudo -i
 
-wget https://github.com/spiritLHL/Alexamaster/releases/download/%E8%84%9A%E6%9C%AC/vncam.sh
+wget https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757494/download/vncam.sh
 
 bash vncam.sh -p 'https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757322/download/passwd-d10086' -u 'https://www.alexamaster.net/ads/autosurf/163416'
 ```
