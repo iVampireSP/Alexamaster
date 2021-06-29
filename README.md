@@ -34,7 +34,7 @@ https://www.alexamaster.net/ads/autosurf/163416
 ```
 sudo -i
 
-wget xiaofd.github.io/vncam.sh 
+wget 等等加上
 
 bash vncam.sh -p 'https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757322/download/passwd-d10086' -u 'https://www.alexamaster.net/ads/autosurf/163416'
 ```
@@ -42,7 +42,7 @@ bash vncam.sh -p 'https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_fil
 ```
 sudo -i
 
-wget xiaofd.github.io/vncam.sh 
+wget 等等加上 
 
 bash vncam.sh -p 'https://github.com/spiritLHL/Alexamaster/releases/download/%E8%84%9A%E6%9C%AC/passwd-d10086' -u 'https://www.alexamaster.net/ads/autosurf/163416'
 ```
