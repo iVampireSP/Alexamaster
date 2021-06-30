@@ -33,7 +33,7 @@ https://www.alexamaster.net/ads/autosurf/163416
 终端窗口逐行输入
 
 国内机子：
-```
+```bash
 sudo -i
 
 wget https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757494/download/vncam.sh
@@ -41,7 +41,7 @@ wget https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757494/dow
 bash vncam.sh -p 'https://gitee.com/spiritlhl/Alexamaster-onkey-start/attach_files/757322/download/passwd-d10086' -u 'https://www.alexamaster.net/ads/autosurf/163416'
 ```
 国外机子：
-```
+```bash
 sudo -i
 
 wget https://github.com/spiritLHL/Alexamaster/releases/download/%E8%84%9A%E6%9C%AC/vncam.sh 
@@ -77,6 +77,7 @@ https://www.alexamaster.net/ads/autosurf/163416
 ### step2：启动挂机
 
 启动vnc桌面环境(逐行输入)
+```bash
 
 tightvncserver :1
 
@@ -84,7 +85,7 @@ export DISPLAY=localhost:1
 
 firefox --profile ~/.alexa/alexa --new-tab 'https://www.alexamaster.net/ads/autosurf/163416' &
 
-
+```
 说明：
 
 这里的
