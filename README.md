@@ -78,11 +78,12 @@ https://www.alexamaster.net/ads/autosurf/163416
 
 启动vnc桌面环境(逐行输入)
 
+tightvncserver :1
+
 export DISPLAY=localhost:1
 
 firefox --profile ~/.alexa/alexa --new-tab 'https://www.alexamaster.net/ads/autosurf/163416' &
 
-tightvncserver :1
 
 说明：
 
@@ -104,33 +105,32 @@ https://www.alexamaster.net/ads/autosurf/163416
 
 任务名称：定时关闭
 
-执行周期：N小时 8 时 0 分
+执行周期：N小时 6 时 0 分
 
 脚本内容
 ```
 sudo -i
 export DISPLAY=localhost:1
-firefox --profile ~/.alexa/alexa --new-tab 'https://www.alexamaster.net/ads/autosurf/163416' &
 pkill firefox
 ```
 #### 第二个：
 
 任务名称：定时启动
 
-执行周期：N小时 8 时 5 分
+执行周期：N小时 6 时 5 分
 
 脚本内容
 ```
 sudo -i
+tightvncserver :1
 export DISPLAY=localhost:1
 firefox --profile ~/.alexa/alexa --new-tab 'https://www.alexamaster.net/ads/autosurf/163416' &
-tightvncserver :1
 ```
 上面中启动的是我的链接，自己的自行替换
 
 实际测试占用还行，大概800M内存，18%的2核英特尔i5CPU和7.5G硬盘空间。
 
-如果不是2核4G的云服务器，建议把周期从8小时改得更短。
+如果不是2核4G的云服务器，建议把周期从6小时改得更短。
 
 最低配置要求：1核1G内存10G硬盘
 
